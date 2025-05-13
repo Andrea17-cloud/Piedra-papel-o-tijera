@@ -1,10 +1,10 @@
 import sys
-from game import Play
+from Juego import Juego
 
 def main():
     
-    game = Play(sys.argv[1:])
-    return game.startGame()
+    juego = Juego(sys.argv[1:])
+    return juego.iniciar_juego()
 
 
 
