@@ -1,5 +1,5 @@
 import random
-
+import sys
 class Juego:
     OPCIONES_PERMITIDAS = ["piedra", "papel", "tijera"]
 
@@ -100,3 +100,11 @@ class Juego:
                 Ganador: {ganador}
             """)
 
+
+
+
+
+if __name__ == "__main__":
+    
+    juego = Juego(sys.argv[1:])
+    juego.iniciar_juego()
