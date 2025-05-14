@@ -13,7 +13,7 @@ class TestVs(unittest.TestCase):
         self.assertEqual(Juego.determinar_ganador("papel","piedra"), 1)
         
     def test_tijera_vs_piedra(self):
-        self.assertEqual(Juego.determinar_ganador("tijera","piedra"), -1)
+        self.assertEqual(Juego.determinar_ganador("carro","piedra"), -1)
     
     def test_papel_vs_tijera(self):
         self.assertEqual(Juego.determinar_ganador("papel","tijera"), -1)

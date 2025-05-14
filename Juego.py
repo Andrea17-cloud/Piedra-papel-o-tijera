@@ -1,7 +1,7 @@
 import random
 import sys
 class Juego:
-    OPCIONES_PERMITIDAS = ["piedra", "papel", "tijera"]
+    OPCIONES_PERMITIDAS = ["roca", "papel", "tijera"]
 
     def __init__(self, elecciones_jugador):
         self.elecciones_jugador = elecciones_jugador
